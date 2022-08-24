@@ -19,40 +19,46 @@
   </head>
   <body>
     <header class="header">
-      <nav class="site-nav">
-        <a class="logo" href="./index.html" lang="en"><span>Web</span>Studio</a>
-        <ul class="list">
-          <li><a class="link" href="./index.html">Студія</a></li>
-          <li><a class="link current" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="link" href="">Контакти</a></li>
-        </ul>
-      </nav>
+      <div class="container main-nav">
+        <nav class="site-nav">
+          <a class="logo" href="./index.html" lang="en"><span>Web</span>Studio</a>
+          <ul class="list nav">
+            <li class="item"><a class="link" href="./index.html">Студія</a></li>
+            <li class="item"><a class="link current" href="./portfolio.html">Портфоліо</a></li>
+            <li class="item"><a class="link" href="">Контакти</a></li>
+          </ul>
+        </nav>
 
-      <ul class="contact list">
-        <li><a class="cotact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="cotact-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+        <ul class="contact list">
+          <li class="item">
+            <a class="cotact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="cotact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main class="page">
-      <section class="filter">
+      <section class="filter container">
         <h1 hidden>Портфоліо</h1>
-        <ul class="list">
-          <li><button class="filter-btn" type="button">Усі</button></li>
-          <li><button class="filter-btn" type="button">Веб-сайти</button></li>
-          <li><button class="filter-btn" type="button">Додатки</button></li>
-          <li><button class="filter-btn" type="button">Дизайн</button></li>
-          <li><button class="filter-btn" type="button">Маркетинг</button></li>
+        <ul class="list box">
+          <li class="element"><button class="filter-btn" type="button">Усі</button></li>
+          <li class="element"><button class="filter-btn" type="button">Веб-сайти</button></li>
+          <li class="element"><button class="filter-btn" type="button">Додатки</button></li>
+          <li class="element"><button class="filter-btn" type="button">Дизайн</button></li>
+          <li class="element"><button class="filter-btn" type="button">Маркетинг</button></li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class="link-container list">
+          <li class="item">
             <a class="link" href="">
               <img src="./images/portfolio/img1.jpg" alt="laptop" width="370" height="294" />
               <h2 class="portfolio-title">Технокряк</h2>
               <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/portfolio/img2.jpg"
@@ -64,7 +70,7 @@
               <p class="portfolio-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/portfolio/img3.jpg"
@@ -76,42 +82,42 @@
               <p class="portfolio-text">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/portfolio/img4.jpg" alt="headphones" width="370" height="294" />
               <h2 class="portfolio-title">Проєкт Prime</h2>
               <p class="portfolio-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/portfolio/img5.jpg" alt="two boxes" width="370" height="294" />
               <h2 class="portfolio-title">Проєкт Boxes</h2>
               <p class="portfolio-text">Додаток</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/portfolio/img6.jpg" alt="monitor" width="370" height="294" />
               <h2 class="portfolio-title">Inspiration has no Borders</h2>
               <p class="portfolio-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/portfolio/img7.jpg" alt="book is open" width="370" height="294" />
               <h2 class="portfolio-title">Видання Limited Edition</h2>
               <p class="portfolio-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img src="./images/portfolio/img8.jpg" alt="sign" width="370" height="294" />
               <h2 class="portfolio-title">Проєкт LAB</h2>
               <p class="portfolio-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="">
               <img
                 src="./images/portfolio/img9.jpg"
@@ -128,14 +134,16 @@
     </main>
 
     <footer class="footer">
-      <a class="logo link" href="./index.html" lang="en"><span>Web</span>Studio</a>
-      <address>
-        <ul class="list">
-          <li><a class="footer-link link" href=""> м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a class="footer-addres link" href=""> info@devstudio.com</a></li>
-          <li><a class="footer-addres link" href=""> +38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      <div class="container">
+        <a class="logo link" href="./index.html" lang="en"><span>Web</span>Studio</a>
+        <address>
+          <ul class="list">
+            <li><a class="footer-link link" href=""> м. Київ, пр-т Лесі Українки, 26</a></li>
+            <li><a class="footer-addres link" href=""> info@devstudio.com</a></li>
+            <li><a class="footer-addres link" href=""> +38 096 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
