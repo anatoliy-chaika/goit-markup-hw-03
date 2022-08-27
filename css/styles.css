@@ -138,6 +138,11 @@ ul {
   text-align: center;
   padding: 200px 0;
 }
+
+.hero .main-title {
+width: 696px;
+}
+
 .hero-title {
   color: var(--main-background-color);
   font-weight: 900;
