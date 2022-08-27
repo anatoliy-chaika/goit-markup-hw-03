@@ -55,6 +55,9 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -162,13 +165,10 @@ ul {
 }
 
 /* benefits */
-.work .container {
-  padding-top: 0;
-}
 
 .list.about {
   display: flex;
-  gap: 30 px;
+  gap: 30px;
 }
 
 .benefits-title {
@@ -186,6 +186,11 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+/* work */
+.work.section {
+  padding-top: 0;
 }
 
 .work-title {
@@ -252,9 +257,6 @@ ul {
 /* footer */
 .footer {
   background-color: var(--dark-background-color);
-}
-
-.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -343,6 +345,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .portfolio-text {
