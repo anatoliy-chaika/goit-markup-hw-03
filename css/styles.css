@@ -139,9 +139,7 @@ ul {
   padding: 200px 0;
 }
 
-.hero .main-title {
-width: 696px;
-}
+
 
 .hero-title {
   color: var(--main-background-color);
@@ -152,6 +150,9 @@ width: 696px;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
